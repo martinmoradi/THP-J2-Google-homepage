@@ -14,7 +14,7 @@ a:hover {
   text-decoration: underline;
 }
 .google-home-nav__links {
-  color: rgba (0,0,0,0.87);
+  color: rgba(0,0,0,0.87);
   text-decoration: none;
   line-height: 24px;
   font-size: 13px;
@@ -27,7 +27,7 @@ a:hover {
   flex-direction: row-reverse;
   align-items: center;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .google-home-nav__apps-icon {
@@ -54,7 +54,7 @@ a:hover {
   text-decoration: none;
   font-family: arial, sans-serif;
   font-size: 13px;
-  margin-right: 20px;
+  margin-right: 28px;
 }
 
 .google-home-nav__sign-in-btn:hover {
@@ -63,13 +63,24 @@ a:hover {
   text-decoration: none;
 }
 
+.google-main-content {
+  margin-top: -45px;
+}
+
 .google-main-content__image {
   display: flex;
   justify-content: center;
-  margin-top: 84px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
+.google-main-content__share {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-top: 11%;
+  margin-left: -2%;
+ }
 .google-main-content__search {
   background: #fff;
   display: flex;
@@ -81,7 +92,7 @@ a:hover {
   height: 44px;
   margin: 0 auto;
   width: 584px;
-  margin-top: 10px;
+  margin-top: 5px;
   align-items: center;
 }
 
@@ -102,10 +113,9 @@ a:hover {
 }
 
 .google-main-content__search-voice {
-  height: 24px;
-  width: 24px;
+  width: 13px;
   vertical-align: middle;
-  margin: 10px 0px 0px 0px;
+ /*  margin: 10px 0px 0px 0px; */
 }
 
 .google-main-content__btns {
@@ -162,6 +172,7 @@ a:hover {
 .footer-links_second-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .footer-links_second-row-first-column, .footer-links_second-row-second-column {
@@ -170,10 +181,11 @@ a:hover {
 
 .footer-links_second-row-text, .footer-links_first-row-text {
   padding-right: 27px;
+  color: #5f6368
 }
 
 .footer-links_second-row-text-last-item {
-  margin-right: 27px;
+  margin-right: 17px;
 }
 
 
